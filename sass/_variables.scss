@@ -1,0 +1,20 @@
+$main-font: Roboto, Helvetica, Arial, sans-serif;
+
+// SIZES
+$font-size: 16px;
+
+// COLORS
+
+
+// SHADOWS AND OVERLAYS
+
+
+// Other
+@mixin place($top, $size) {
+  @include position(absolute, null null null 0);
+    width: 100%;
+    top: $top;
+    text-align: center;
+    color:$bg-color;
+    font-size: $size;
+}
